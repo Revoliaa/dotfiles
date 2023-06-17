@@ -1,0 +1,25 @@
+vim.opt.backup = false
+vim.opt.swapfile = false
+vim.opt.clipboard = "unnamedplus"
+vim.opt.completeopt = { "menuone", "noselect" }
+vim.opt.conceallevel = 0
+vim.opt.termguicolors = true
+vim.opt.hlsearch = true
+vim.opt.ignorecase = true
+vim.opt.mouse = "a"
+vim.opt.showtabline = 1
+vim.opt.smartcase = true
+vim.opt.smartindent = true
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+vim.opt.updatetime = 400
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.number = true
+vim.opt.relativenumber = false
+vim.opt.scrolloff = 16
+vim.opt.sidescrolloff = 8
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+vim.loader.enable()
