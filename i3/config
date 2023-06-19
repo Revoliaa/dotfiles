@@ -16,6 +16,9 @@ exec --no-startup-id ~/.config/polybar/launch.sh
 # Start picom on startup.
 exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
 
+# Enable numlock on startup.
+exec --no-startup-id numlockx on
+
 # Autotiling
 exec --no-startup-id autotiling
 
